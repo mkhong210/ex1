@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 1045px;
+    margin: 0 auto;
+    padding: 80px;
+    background: #f6f5f5;
+    text-align: center;
+}
+.cont_text {
+    /* text-align: center; */
+    margin-bottom: 76px;
+}
+.cont_text h2{
+    color: #dc3545;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-weight: normal;
+}
+.cont_text p {
+    font-size: 18px;
+    color: #424d59;
+}
+
+.cont .cont_img {
+    margin-top: 76px;
+}
+.cont .cont_img p {
+    display: inline-block;
+    margin-right: 20px;
+    width: 31%;
+}
+.cont .cont_img p:last-child {
+    margin-right: 0;
+}
+.cont .cont_img p img {
+    width: 100%;
+}
+.cont .cont_img p img:hover {
+    opacity: 0.5;
+    filter: grayscale(100%); /* 웹표준은 아니지만 가능 */
+}
+
+/* flex 사용 */
+/* .cont .cont_img {
+    width: 889px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.cont .cont_img p {
+    margin: 0;
+    width: 283px;
+}
+h2,p {
+    margin: 0;
+    padding: 0;
+} */
